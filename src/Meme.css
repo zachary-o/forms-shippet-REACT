@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  width: 400px;
+  padding-bottom: 40px;
+  border-radius: 5px;
+}
+
+.form {
+  margin: 20px;
+}
+
+.image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  max-width: 300px;
+  max-height: 400px;
+}
+
+.top {
+  position: absolute;
+  top: 0
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+
